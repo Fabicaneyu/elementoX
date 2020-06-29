@@ -114,6 +114,7 @@ button {
   height: 259px;
   left: 45px;
   top: 990px;
+  border-radius: 100%;
 
   background: rgba(250, 149, 54, 0.54);
 }
@@ -123,6 +124,7 @@ button {
   height: 132px;
   left: 336px;
   top: 837px;
+  border-radius: 100%;
 
   background: rgba(140, 30, 0, 0.79);
 }
@@ -132,6 +134,7 @@ button {
   height: 121px;
   left: 441px;
   top: 1081px;
+  border-radius: 100%;
 
   background: linear-gradient(
       0deg,
@@ -146,6 +149,8 @@ button {
   height: 182px;
   left: 297px;
   top: 1341px;
+  border-radius: 100%;
+
   background: rgba(250, 149, 54, 0.83);
 }
 .elipse5 {
@@ -154,6 +159,7 @@ button {
   height: 510px;
   left: -266px;
   top: 1350px;
+  border-radius: 100%;
 
   background: rgba(140, 30, 0, 0.79);
 }
