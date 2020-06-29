@@ -2,70 +2,67 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-#logo{
+#logo {
   display: flex;
   justify-content: center;
 }
 
 #inicio {
-  border: solid black 1px;
-  margin: 20px;  /* espaçamento em cima e embaixo */
+  margin: 20px; /* espaçamento em cima e embaixo */
   padding: 5px;
-  
-
 }
 
-.foto{
-  height: 100px;  /* altura */
-  width: 100px;   /* largura */
-  margin: 20px 80px;  /* espaçamento entre as imagens em sentido horário*/
+.foto {
+  height: 100px; /* altura */
+  width: 100px; /* largura */
+  margin: 20px 80px; /* espaçamento entre as imagens em sentido horário*/
   border: solid black 1px;
-  
 }
 
-#formulario{
+#formulario {
   border: solid black 1px;
   width: 400px;
   height: 200px;
-  background:green;
-  padding: 5px; 
+  background: #fa9536;
+  padding: 5px;
+
+  margin: 900px;
+  margin-top: 10px;
+}
+
+.borda {
   border-radius: 5px 10px;
 }
 
-.borda{
-  border-radius: 5px 10px;
-}
-
-.info{
+.info {
   display: flex;
   flex-direction: column;
 }
 
-
-
-.btn-item, button {
+.btn-item,
+button {
   padding: 10px 5px;
   margin-top: 20px;
   border-radius: 5px;
   border: none;
-  background: #26A9E0;
+  background: #8c1e00;
   text-decoration: none;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  }
+}
 
-  button:hover, .btn-item:hover {
-    background: #85D6DE;
-    }
+button:hover,
+.btn-item:hover {
+  background: #85d6de;
+}
 
-    
-    button {
-    width: 100%;
-    cursor: pointer;
-    }
+button {
+  width: 100%;
+  cursor: pointer;
+}
 
-  /* Formulário 
+/* Formulário 
 
 .main-block {
   display: flex;
