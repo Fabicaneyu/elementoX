@@ -2,8 +2,143 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-#form {
+#logo{
   display: flex;
   justify-content: center;
-  margin: 0;
 }
+
+#inicio {
+  border: solid black 1px;
+  margin: 20px;  /* espaçamento em cima e embaixo */
+  padding: 5px;
+  
+
+}
+
+.foto{
+  height: 100px;  /* altura */
+  width: 100px;   /* largura */
+  margin: 20px 80px;  /* espaçamento entre as imagens em sentido horário*/
+  border: solid black 1px;
+  
+}
+
+#formulario{
+  border: solid black 1px;
+  width: 400px;
+  height: 200px;
+  background:green;
+  padding: 5px; 
+  border-radius: 5px 10px;
+}
+
+.borda{
+  border-radius: 5px 10px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.btn-item, button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #26A9E0;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  }
+
+  button:hover, .btn-item:hover {
+    background: #85D6DE;
+    }
+
+    
+    button {
+    width: 100%;
+    cursor: pointer;
+    }
+
+  /* Formulário 
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  }
+  .left-part, form {
+  padding: 25px;
+  }
+  .left-part {
+  text-align: center;
+  }
+  .fa-graduation-cap {
+  font-size: 72px;
+  }
+  form {
+  background: rgba(0, 0, 0, 0.7);
+  
+  }
+  .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  .info {
+  display: flex;
+  flex-direction: column;
+  }
+  input, select {
+  padding: 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #eee;
+  }
+  input::placeholder {
+  color: #eee;
+  }
+  option:focus {
+  border: none;
+  }
+  option {
+  background: black;
+  border: none;
+  }
+  .checkbox input {
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  }
+  .checkbox a {
+  color: #26A9E0;
+  }
+  .checkbox a:hover {
+  color: #85D6DE;
+  }
+
+
+  @media (min-width: 568px) {
+  html, body {
+  height: 100%;
+  }
+  .main-block {
+  flex-direction: row;
+  height: calc(100% - 50px);
+  }
+  .left-part, form {
+  flex: 1;
+  height: auto;
+
+  }
+  }
+*/
