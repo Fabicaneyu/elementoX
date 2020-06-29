@@ -15,8 +15,8 @@
   <body>
     <header id="rtg">
       <div id="logo">
-          <p>Motorista</p></br>
-      <p>Organizado</p>
+          <h1>Motorista</br>
+            Organizado</h1>
       </div>
       
     </header>
@@ -68,8 +68,10 @@
           method="POST"
           action="https://smtl.gama.academy/leads/bfeebc03-b7e1-11ea-8228-89cff86db9a0"
         >
-          <p>nome completo</p>
+        <label for="nome"> Nome Completo: </label>
+        <br>
           <input
+             id="nome"
             class="borda"
             name="name"
             type="text"
@@ -78,8 +80,10 @@
             required
           />
           <br />
-          <p>e-mail</p>
+          <label for="email">E-mail:</label>
+          <br>
           <input
+            id="email"
             class="borda"
             name="email"
             type="email"
@@ -88,22 +92,26 @@
           />
           <br />
           <div class="field radiobox">
-            <span>Deseja receber nossas novidades?</span></br>
+            <span>Você já trabalha como motorista?</span></br>
             <input
               type="radio"
               name="novidades"
               id="sim"
               value="sim"
-              checked
+              required 
             /><label for="sim">Sim</label>
             <input type="radio" name="novidades" id="nao" value="nao" /><label
               for="nao"
               >Não</label
             ></br>
-            <span>Deseja receber nossas novidades?</span></br>
-            <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta<br>
-    <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro<br>
-    <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto
+            <span>Qual sua maior dificuldade hoje?</span></br>
+            <input type="checkbox" name="gestão financeira" value="1">gestão financeira<br>
+    <input type="checkbox" name="produtividade" value="2">produtividade<br>
+    <input type="checkbox" name="segurança" value="3">segurança<br>
+    <input type="checkbox" name="outros" value="4"> outro <br>
+    <input class="borda" name="outro" type="text" title="escreva outra dificuldade do seu dia a dia hoje"> <br>
+    <label for="soma"> 2+1 ? </label> <br>
+    <input id="soma" class="borda" name="soma" type="text" title="Responda a soma de 2 + 1 " required> <br>
 
 
           </div>
