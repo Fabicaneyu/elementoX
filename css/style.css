@@ -24,8 +24,6 @@ body {
 }
 
 #inicio {
-  margin: 20px; /* espaçamento em cima e embaixo */
-  padding: 5px;
   position: absolute;
   width: 727px;
   height: 112px;
@@ -38,8 +36,6 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-
-  color: #000000;
 }
 
 .foto {
@@ -79,7 +75,6 @@ body {
 
   background: rgba(250, 149, 54, 0.32);
 }
-
 .borda {
   border-radius: 5px 10px;
 }
@@ -113,81 +108,52 @@ button {
   width: 100%;
   cursor: pointer;
 }
+.elipse {
+  position: absolute;
+  width: 304px;
+  height: 259px;
+  left: 45px;
+  top: 990px;
 
-/* Formulário 
+  background: rgba(250, 149, 54, 0.54);
+}
+.elipse2 {
+  position: absolute;
+  width: 161px;
+  height: 132px;
+  left: 336px;
+  top: 837px;
 
-.main-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: 25px;
-  background: rgba(0, 0, 0, 0.5);
-  }
-  .left-part, form {
-  padding: 25px;
-  }
-  .left-part {
-  text-align: center;
-  }
-  .fa-graduation-cap {
-  font-size: 72px;
-  }
-  form {
-  background: rgba(0, 0, 0, 0.7);
-  
-  }
-  .title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  }
-  .info {
-  display: flex;
-  flex-direction: column;
-  }
-  input, select {
-  padding: 5px;
-  margin-bottom: 30px;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #eee;
-  }
-  input::placeholder {
-  color: #eee;
-  }
-  option:focus {
-  border: none;
-  }
-  option {
-  background: black;
-  border: none;
-  }
-  .checkbox input {
-  margin: 0 10px 0 0;
-  vertical-align: middle;
-  }
-  .checkbox a {
-  color: #26A9E0;
-  }
-  .checkbox a:hover {
-  color: #85D6DE;
-  }
+  background: rgba(140, 30, 0, 0.79);
+}
+.elipse3 {
+  position: absolute;
+  width: 125px;
+  height: 121px;
+  left: 441px;
+  top: 1081px;
 
+  background: linear-gradient(
+      0deg,
+      rgba(250, 149, 54, 0.44),
+      rgba(250, 149, 54, 0.44)
+    ),
+    rgba(250, 149, 54, 0.44);
+}
+.elipse4 {
+  position: absolute;
+  width: 210px;
+  height: 182px;
+  left: 297px;
+  top: 1341px;
+  background: rgba(250, 149, 54, 0.83);
+}
+.elipse5 {
+  position: absolute;
+  width: 563px;
+  height: 510px;
+  left: -266px;
+  top: 1350px;
 
-  @media (min-width: 568px) {
-  html, body {
-  height: 100%;
-  }
-  .main-block {
-  flex-direction: row;
-  height: calc(100% - 50px);
-  }
-  .left-part, form {
-  flex: 1;
-  height: auto;
-
-  }
-  }
-*/
+  background: rgba(140, 30, 0, 0.79);
+}
