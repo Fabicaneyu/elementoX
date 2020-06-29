@@ -75,9 +75,6 @@ body {
 
   background: rgba(250, 149, 54, 0.32);
 }
-.borda {
-  border-radius: 5px 10px;
-}
 
 .info {
   display: flex;
@@ -171,4 +168,16 @@ button {
   border-radius: 100%;
 
   background: rgba(140, 30, 0, 0.79);
+}
+form {
+  margin: 30px;
+}
+#email {
+  width: 100%;
+}
+#nome-completo {
+  width: 100px;
+}
+#soma {
+  width: 350px;
 }
