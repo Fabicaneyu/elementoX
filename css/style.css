@@ -22,11 +22,11 @@ body {
 #formulario {
   border: solid black 1px;
   width: 400px;
-  height: 200px;
+  height: 600px;
   background: #fa9536;
   padding: 5px;
 
-  margin: 900px;
+  margin: 800px;
   margin-top: 10px;
 }
 
@@ -37,6 +37,8 @@ body {
 .info {
   display: flex;
   flex-direction: column;
+}
+#field-radiobox input {
 }
 
 .btn-item,
