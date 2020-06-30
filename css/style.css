@@ -6,6 +6,21 @@ body {
   justify-content: center;
 }
 
+#log {
+  margin-top: 70px;
+}
+
+h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
 #rtg {
   display: flex;
   justify-content: center;
@@ -26,12 +41,12 @@ body {
   width: 727px;
   height: 112px;
   left: 297px;
-  top: 285px;
+  top: 175px;
   font-family: Rubik;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 50px;
   text-align: center;
   margin-top: 50px;
 }
@@ -41,7 +56,6 @@ body {
   height: 160px;
   left: 867px;
   top: 440px;
-  
 }
 .foto1 {
   position: absolute;
@@ -49,7 +63,6 @@ body {
   height: 152px;
   left: 604px;
   top: 450px;
-  
 }
 .foto2 {
   position: absolute;
@@ -57,7 +70,6 @@ body {
   height: 154px;
   left: 258px;
   top: 448px;
-  
 }
 #formulario {
   position: absolute;
@@ -66,7 +78,6 @@ body {
   left: 688px;
   top: 760px;
   background: rgba(250, 149, 54, 0.32);
-  
 }
 
 aside {
@@ -99,9 +110,9 @@ button {
   cursor: pointer;
 }
 
-
 form {
   margin: 30px;
+  margin-top: 5px;
 }
 #email {
   width: 100%;
