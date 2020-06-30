@@ -41,7 +41,7 @@ body {
   height: 160px;
   left: 867px;
   top: 440px;
-  background: url(paiefilho.png);
+  
 }
 .foto1 {
   position: absolute;
@@ -49,7 +49,7 @@ body {
   height: 152px;
   left: 604px;
   top: 450px;
-  background: url(financeiro1.png);
+  
 }
 .foto2 {
   position: absolute;
@@ -57,7 +57,7 @@ body {
   height: 154px;
   left: 258px;
   top: 448px;
-  background: url(carro.png);
+  
 }
 #formulario {
   position: absolute;
@@ -66,7 +66,13 @@ body {
   left: 688px;
   top: 760px;
   background: rgba(250, 149, 54, 0.32);
+  
 }
+
+aside {
+  background-image: url(imageFundo.png);
+}
+
 .info {
   display: flex;
   flex-direction: column;
@@ -93,56 +99,7 @@ button {
   cursor: pointer;
 }
 
-.elipse {
-  position: absolute;
-  width: 304px;
-  height: 259px;
-  left: 45px;
-  top: 800px;
-  border-radius: 100%;
-  background: rgba(250, 149, 54, 0.54);
-}
-.elipse2 {
-  position: absolute;
-  width: 161px;
-  height: 132px;
-  left: 336px;
-  top: 685px;
-  border-radius: 100%;
-  background: rgba(140, 30, 0, 0.79);
-}
-.elipse3 {
-  position: absolute;
-  width: 125px;
-  height: 121px;
-  left: 441px;
-  top: 850px;
-  border-radius: 100%;
-  background: linear-gradient(
-      0deg,
-      rgba(250, 149, 54, 0.44),
-      rgba(250, 149, 54, 0.44)
-    ),
-    rgba(250, 149, 54, 0.44);
-}
-.elipse4 {
-  position: absolute;
-  width: 210px;
-  height: 182px;
-  left: 297px;
-  top: 1000px;
-  border-radius: 100%;
-  background: rgba(250, 149, 54, 0.83);
-}
-.elipse5 {
-  position: absolute;
-  width: 563px;
-  height: 510px;
-  left: -266px;
-  top: 1100px;
-  border-radius: 100%;
-  background: rgba(140, 30, 0, 0.79);
-}
+
 form {
   margin: 30px;
 }
