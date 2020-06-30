@@ -73,11 +73,12 @@ h1 {
 }
 #formulario {
   position: absolute;
-  width: 418px;
-  height: 250px;
-  left: 688px;
-  top: 760px;
+  width: 318px;
+  height: 344px;
+  left: 861px;
+  top: 880px;
   background: rgba(250, 149, 54, 0.32);
+  border-radius: 22px;
 }
 
 aside {
@@ -89,8 +90,7 @@ aside {
   flex-direction: column;
 }
 
-.btn-item,
-button {
+.btn-item {
   padding: 10px 5px;
   margin-top: 50px;
   border-radius: 5px;
@@ -122,4 +122,14 @@ form {
 }
 #soma {
   width: 350px;
+}
+
+#fundo img {
+  position: absolute;
+  width: 1280px;
+  height: 855px;
+  left: 35px;
+  top: 650px;
+
+  background: url(image.png);
 }
