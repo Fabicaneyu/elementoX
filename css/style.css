@@ -71,8 +71,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-#field-radiobox input {
-}
+
 .btn-item,
 button {
   padding: 10px 5px;
