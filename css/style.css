@@ -92,16 +92,7 @@ button {
   width: 100%;
   cursor: pointer;
 }
-.elipse00 {
-  position: absolute;
-  width: 97px;
-  height: 97px;
-  left: 527px;
-  top: 110px;
-  border-radius: 100%;
-  background: #fa9536;
-  z-index: x;
-}
+
 .elipse {
   position: absolute;
   width: 304px;
