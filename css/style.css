@@ -1,7 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
-
 #logo {
   display: flex;
   justify-content: center;
@@ -20,31 +19,28 @@ body {
   width: 229px;
   height: 47px;
   left: 593px;
-  top: 151px;
+  top: 158px;
 }
-
 #inicio {
   position: absolute;
   width: 727px;
   height: 112px;
   left: 297px;
   top: 285px;
-
   font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  margin-top: 50px;
 }
-
 .foto {
   position: absolute;
   width: 222px;
   height: 160px;
   left: 867px;
   top: 440px;
-
   background: url(paiefilho.png);
 }
 .foto1 {
@@ -53,7 +49,6 @@ body {
   height: 152px;
   left: 604px;
   top: 450px;
-
   background: url(financeiro1.png);
 }
 .foto2 {
@@ -62,31 +57,26 @@ body {
   height: 154px;
   left: 258px;
   top: 448px;
-
   background: url(carro.png);
 }
-
 #formulario {
   position: absolute;
   width: 418px;
-  height: 746px;
+  height: 250px;
   left: 688px;
   top: 760px;
-
   background: rgba(250, 149, 54, 0.32);
 }
-
 .info {
   display: flex;
   flex-direction: column;
 }
 #field-radiobox input {
 }
-
 .btn-item,
 button {
   padding: 10px 5px;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 5px;
   border: none;
   background: #8c1e00;
@@ -95,12 +85,10 @@ button {
   font-weight: 400;
   color: #fff;
 }
-
 button:hover,
 .btn-item:hover {
   background: #85d6de;
 }
-
 button {
   width: 100%;
   cursor: pointer;
@@ -113,15 +101,15 @@ button {
   top: 110px;
   border-radius: 100%;
   background: #fa9536;
+  z-index: x;
 }
 .elipse {
   position: absolute;
   width: 304px;
   height: 259px;
   left: 45px;
-  top: 990px;
+  top: 800px;
   border-radius: 100%;
-
   background: rgba(250, 149, 54, 0.54);
 }
 .elipse2 {
@@ -129,9 +117,8 @@ button {
   width: 161px;
   height: 132px;
   left: 336px;
-  top: 837px;
+  top: 685px;
   border-radius: 100%;
-
   background: rgba(140, 30, 0, 0.79);
 }
 .elipse3 {
@@ -139,9 +126,8 @@ button {
   width: 125px;
   height: 121px;
   left: 441px;
-  top: 1081px;
+  top: 850px;
   border-radius: 100%;
-
   background: linear-gradient(
       0deg,
       rgba(250, 149, 54, 0.44),
@@ -154,9 +140,8 @@ button {
   width: 210px;
   height: 182px;
   left: 297px;
-  top: 1341px;
+  top: 1000px;
   border-radius: 100%;
-
   background: rgba(250, 149, 54, 0.83);
 }
 .elipse5 {
@@ -164,9 +149,8 @@ button {
   width: 563px;
   height: 510px;
   left: -266px;
-  top: 1350px;
+  top: 1100px;
   border-radius: 100%;
-
   background: rgba(140, 30, 0, 0.79);
 }
 form {
@@ -175,8 +159,8 @@ form {
 #email {
   width: 100%;
 }
-#nome-completo {
-  width: 100px;
+#nome {
+  width: 100%;
 }
 #soma {
   width: 350px;
