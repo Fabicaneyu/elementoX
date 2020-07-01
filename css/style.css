@@ -63,27 +63,7 @@ h2 {
   text-align: center;
   margin-top: 50px;
 }
-.foto {
-  position: absolute;
-  width: 222px;
-  height: 160px;
-  left: 867px;
-  top: 440px;
-}
-.foto1 {
-  position: absolute;
-  width: 163px;
-  height: 152px;
-  left: 604px;
-  top: 450px;
-}
-.foto2 {
-  position: absolute;
-  width: 216px;
-  height: 154px;
-  left: 258px;
-  top: 448px;
-}
+
 #formulario {
   position: absolute;
   width: 318px;
@@ -145,4 +125,26 @@ form {
   top: 650px;
 
   background: url(image.png);
+}
+
+/*  3 imagens  */
+.blocos {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.sessao-topicos {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloco-topicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-topicos {
+  width: 60%;
 }
