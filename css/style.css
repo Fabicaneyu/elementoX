@@ -1,150 +1,38 @@
+.login-page
+{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
 body {
-  font-family: 'Courier New', Courier, monospace;
-}
-#logo {
-  display: flex;
-  justify-content: center;
-}
+    font-family: 'Courier New', Courier, monospace;
+  }
 
-#log {
-  margin-top: 20px;
-}
+  #formulario {
+    
+    background: rgba(250, 149, 54, 0.32);
+    border-radius: 22px;
+  }
 
-h1 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #000000;
-}
-
-h2 {
-  width: 400px;
-  height: 56px;
-  left: 101px;
-  top: 1000px;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #000000;
-}
-
-#rtg {
-  display: flex;
-  justify-content: center;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
-  text-align: center;
-  position: absolute;
-  width: 229px;
-  height: 47px;
-  left: 593px;
-  top: 158px;
-}
-#inicio {
-  position: absolute;
-  width: 727px;
-  height: 112px;
-  left: 297px;
-  top: 175px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 50px;
-  text-align: center;
-  margin-top: 50px;
-}
-
-#formulario {
-  position: absolute;
-  width: 318px;
-  height: 344px;
-  left: 861px;
-  top: 880px;
-  background: rgba(250, 149, 54, 0.32);
-  border-radius: 22px;
-}
-
-aside {
-  background-image: url(imageFundo.png);
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-}
-
-.btn-item {
-  padding: 10px 5px;
-  margin-top: 50px;
-  border-radius: 5px;
-  border: none;
-  background: #8c1e00;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-}
-button:hover,
-.btn-item:hover {
-  background: #85d6de;
-}
-button {
-  width: 100%;
-  cursor: pointer;
-}
-
-form {
-  margin: 30px;
-  margin-top: 5px;
-}
-#email {
-  width: 100%;
-}
-#nome {
-  width: 100%;
-}
-#soma {
-  width: 350px;
-}
-
-#fundo img {
-  position: absolute;
-  width: 1280px;
-  height: 855px;
-  left: 35px;
-  top: 650px;
-
-  background: url(image.png);
-}
-
-/*  3 imagens  */
-.blocos {
-  margin-top: 20vh;
-  text-align: center;
-}
-
-.sessao-topicos {
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.bloco-topicos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.img-topicos {
-  width: 60%;
-}
+  .btn-item {
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background: #8c1e00;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
