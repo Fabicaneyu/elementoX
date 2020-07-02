@@ -1,0 +1,23 @@
+
+ .fundo {
+    background-image: url(./../img/imgnovas/Imagem\ fundo.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    width: auto;
+    height: 768px;
+  
+}
+
+
+
+.ebook{
+    position: absolute;
+    width: 372px;
+    height: 256px;
+    left: 511px;
+    top: 215px;
+}
+
